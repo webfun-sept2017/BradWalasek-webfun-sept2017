@@ -1,0 +1,19 @@
+<style type="text/css">
+	body{
+		background-color: green;
+		color:white;
+	}
+
+	p{
+		font-size: 30px;
+		font-style: italic;
+	}
+	p.gibberish{
+		color:black;
+	}
+
+	#first_p{
+		font-size:60px;
+	}
+</style>
+

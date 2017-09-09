@@ -1,0 +1,8 @@
+git init
+git add .
+git add -A
+git commit -m ""
+git revert -n HEAD
+git status
+
+These are all of the commands I used to perform the objectives.

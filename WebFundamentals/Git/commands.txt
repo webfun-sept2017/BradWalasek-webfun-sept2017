@@ -1,0 +1,20 @@
+opened the terminal
+cd desktop
+md test
+cd test
+copy nul index.html
+copy nul styles.css
+copy nul commands.txt
+copy index.html index_2.html
+del styles.css
+cd ..
+md destination
+move C:\Users\Brad\Desktop\test\index_2.html C:\Users\Brad\Desktop\destination\index_2.html
+dir
+cd test
+dir
+cd ..
+cd destination
+dir
+cd ..
+rd /s destination

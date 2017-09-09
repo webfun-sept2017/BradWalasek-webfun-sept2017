@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is the title</title>
+  </head>
+  <body>
+    <h1 class="header">This page will display and describe various tags(Header)</h1>
+    <p>Above is the first header. This statement is done with the < p > tag </p>
+    <a href="https://www.google.com">This link is an anchor and leads to google</a>
+    <table>
+      <thead>
+        <td>Demon's Souls</td>
+        <td>Dark Souls</td>
+        <td>Dark Souls II</td>
+        <td>Dark Souls III</td>
+      </thead>
+      <tr>
+        <td><img src=demonsouls.jpg height=300 width=400 alt="DS image"></td>
+        <td><img src=darksouls.jpg height=300 width=400 alt="DS1 image"></td>
+        <td><img src="darksoulsII.jpg" height=300 width=400 alt="DS2 image"></td>
+        <td><img src="darksoulsIII.jpg" height=300 width=400 alt="DS3 image"></td>
+      </tr>
+    </table>
+
+    <form action="process.php" method="post">
+        <p>Please Register</p>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+
+        <label id="email">Email:</label>
+        <input type="text" id="email" name="email">
+
+        <p>Select your gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+
+        <p>Select 3 of your favorite colors:</p>
+        <label for="blue">Blue</label>
+        <input type="checkbox" id="blue" name="color" value="blue">
+
+        <label for="green">Green</label>
+        <input type="checkbox" id="green" name="color" value="green">
+
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" name="color" value="red">
+
+        <label for="black">Black</label>
+        <input type="checkbox" id="black" name="color" value="black">
+
+        <label for="purple">Purple</label>
+        <input type="checkbox" id="purple" name="color" value="Purple">
+
+
+        <p>Say a few words about yourself:</p>
+        <textarea name="description"></textarea>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+       <label for="pw_confirm">Password Confirmation:</label>
+       <input type="password" id="pw_confirm" name="password_confirmation">
+
+       <input type="submit" value="Click here to register">
+    </form>
+
+
+
+
+  </body>
+
+</html>

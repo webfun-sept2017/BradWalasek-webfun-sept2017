@@ -1,0 +1,1 @@
+This folder currently contains  this document which is a readme with **Markdown** as the extension and a hidden git file with the local repository.
