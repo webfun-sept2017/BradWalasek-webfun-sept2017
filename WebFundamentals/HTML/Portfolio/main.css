@@ -33,7 +33,7 @@ h1, .top h2{
 p{
   padding:10px;
 }
-h2{
+h3{
   margin-left: 15px;
   color: white;
 }
@@ -51,9 +51,9 @@ h2{
   margin:5px;
 
 }
-.imgchart h2{
+.imgchart h3{
   position: relative;
-  right:20px;
+  right:80px;
 }
 
 .imgchart{
