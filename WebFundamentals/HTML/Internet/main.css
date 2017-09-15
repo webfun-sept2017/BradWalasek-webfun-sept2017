@@ -174,18 +174,17 @@ h5{
   background-color: rgb(225,186,21);
 }
 .bottom p{
-margin: 0px 0px 0px 160px;
+margin: 0px 0px 20px 160px;
 display: inline-block;
 vertical-align: top;
 }
 .bottom h5{
 display: inline-block;
 vertical-align: top;
-margin: 0px;
+margin: 0px 0px 20px 160px;
 }
 
 .bottom img{
-	position: static;
 	width:160px;
 	display: inline-block;
 	margin: 0px;
