@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+  font-family: sans-serif;
+  width: 970;
+}
+#globe{
+  margin-left: 15px;
+  width: 100px;
+  position: absolute;
+}
+
+h1{
+  margin:25px 120px 0px;
+  font-size: 50px;
+  display: inline-block;
+}
+h1 span{
+  color: rgb(34,101,158);
+}
+h2{
+  margin:10px 0px 0px;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+  background: linear-gradient(rgb(36,102,159),rgb(81,131,173),rgb(36,102,159));
+}
+.sidebar{
+  width: 300px;
+  height: 550px;
+  display: inline-block;
+  margin: 30px 20px;
+}
+button{
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 2px silver;
+  width: 250px;
+  height: 50px;
+  margin: 5px 25px;
+  font-size: 20px;
+
+}
+#red{
+	color: red;
+}
+#adbutton{
+	background: linear-gradient(rgb(109,207,223),rgb(0,192,223));
+}
+#bluebutton{
+  background: linear-gradient(rgb(94,149,193),rgb(35,102,159));
+}
+#yellowbutton{
+  background: linear-gradient(rgb(235,172,83),rgb(240,116,0));
+}
+.ad p{
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+.ad img{
+	width: 150px;
+	margin: 20px 75px 30px;
+}
+#background{
+	top:390px;
+	margin: 0px 0px;
+	width:300px;
+	position: absolute;
+	z-index: -1;
+}
+.container{
+  width: 640px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+.container h4{
+  margin-top: 10px;
+  color: rgb(34,101,158);
+  position: absolute;
+  left: 380px;
+}
+
+.container img{
+  width: 30px;
+  position: absolute;
+}
+.serverinfo{
+  margin: 0px 0px 0px 340px;
+  width: 300px;
+  height: 65px;
+  display: inline-block;
+  vertical-align: top;
+}
+.serverinfo h3{
+  font-size: 35px;
+  color: rgb(0,192,223);
+    display: inline-block;
+}
+.serverinfo img{
+  left: 620px;
+  width: 65px;
+}
+.serverinfo{
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+h5{
+  font-size: 25px;
+  color: rgb(36,103,159);
+  font-weight: bold;
+}
+.content{
+  width:640px;
+  height: 510px;
+  display: inline-block;
+}
+.content ul{
+  margin-left: 30px;
+}
+.content ol{
+  margin-left: 30px;
+}
+.content img{
+  width: 300px;
+  margin-left: 170px;
+  position: static;
+}
+.bottom{
+  width: 640px;
+  height: 150px;
+  display: inline-block;
+	border: 5px solid rgb(0,133,224);
+  background-color: rgb(225,186,21);
+}
+.bottom p{
+margin: 0px 0px 0px 160px;
+display: inline-block;
+vertical-align: top;
+}
+.bottom h5{
+display: inline-block;
+vertical-align: top;
+margin: 0px;
+}
+
+.bottom img{
+	position: static;
+	width:160px;
+	display: inline-block;
+	margin: 0px;
+}
+span{
+  color: rgb(36,102,159);
+}
