@@ -30,6 +30,7 @@
 }
 .wrapper{
   width: 900px;
+  /*width: 100%;*/
   height:auto;
   background: linear-gradient( white, rgb(8,104,171) );
 }
@@ -63,4 +64,8 @@ width: auto;
 height: auto;
 margin-top: 60px;
 font-size: 30px;
+}
+.addedclass{
+  color: red;
+  background: linear-gradient(black , red, black, red, black );
 }
