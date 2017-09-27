@@ -57,11 +57,20 @@ $(document).ready(function(){
     var title = $('#win15').attr("title");
     $('#win15').html("the title of this window is " + title);
   });
+
+  var a = true;
+
   $("#button16").click(function(){
-    // $('#button16:textContent').val("val");
+    if(a == true){
+      $('#inputfield').val("This is the .val added!");
+      a = false;
+    }
+    else {
+      $('#inputfield').val("");
+      a = true;
+    }
   });
 
-  // console.log($('#win16'));
   var text = $("h1:first").text();
   $("#button17").click(function(){
     $("#win17").html(text + '<style> #win17 p{font-size: 12px;</style> <p>This was added by pulling the text in the header via .text, stored in a variable and added to a paragraph with .html</p>');
@@ -70,7 +79,8 @@ $(document).ready(function(){
   $('body').data("randominformation", 1);
 
   $("#button18").click(function(){
-    console.log($('body').data);
-    console.log($('body'));
+    var a = $('body').data();
+    $('#win18').html('The information is logged in the console.' + a);
+    console.log(a);
   });
 });
