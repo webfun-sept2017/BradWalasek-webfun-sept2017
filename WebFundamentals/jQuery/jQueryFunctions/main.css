@@ -1,0 +1,66 @@
+.top img{
+  width: 200px;
+  background-color: white;
+  display: inline-block;
+}
+.top h1{
+  display: inline-block;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: italic;
+  vertical-align: top;
+  margin-top: 140px;
+}
+.mainbutton{
+  color: white;
+  background-color: rgb(55,133,187);
+  width: 160px;
+  height: 60px;
+  border-radius: 15px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 2px 2px black;
+  text-align: center;
+  float: left;
+  margin: 40px 20px;
+}
+.top{
+
+}
+.wrapper{
+  width: 900px;
+  height:auto;
+  background: linear-gradient( white, rgb(8,104,171) );
+}
+.segment{
+  width: 880px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 10px auto;
+  text-align: center;
+}
+.segment p{
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  float: right;
+}
+h2{
+  font-size: 30px;
+  color: black;
+}
+.centerwindow{
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+}
+.centerwindow p{
+float: none;
+width: auto;
+height: auto;
+margin-top: 60px;
+font-size: 30px;
+}
