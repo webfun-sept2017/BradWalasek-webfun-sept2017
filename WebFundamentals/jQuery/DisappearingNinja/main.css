@@ -1,0 +1,12 @@
+img{
+  width: 230px;
+}
+body{
+  width: 970px;
+  height: 800px;
+}
+button{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
