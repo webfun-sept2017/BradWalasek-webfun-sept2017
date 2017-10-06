@@ -1,0 +1,7 @@
+pip install Django- This goes through the process of downloading all files needed for Django and installs them. It also looks like if you have to reinstall it it uses a cached copy to reinstall if no update is needed.
+pip list- This lists all packages you currently have installed. Apparently it includes "editables" as well.
+pip install Django- It points out that the requirements for Django to be considered installed are already met, including Django and Pytz being installed.
+pip freeze- This lists installed packages in a certain format called "requirements format", leaving out pip itself and setuptools. I don't quite understand what it is talking about when it goes into virtualenv though.
+pip uninstall Django- Uninstalls Django.
+pip show Django- When Django is installed it gives version info, Author, Location and requirements. It returns nothing when Django isn't installed.
+pip search Flask- This searches for different packages that include whatever was searched in thier name or summary.
