@@ -1,0 +1,42 @@
+
+.background{
+  width: auto;
+  height: 1800px;
+  background-color: rgb(9,120,236);
+  font-size: 40px;
+}
+.ground{
+  background-color: green;
+  height: 200px;
+  width: 100%;
+}
+.movables{
+  /*position: fixed;*/
+}
+
+.ship{
+  position: fixed;
+  background: url(images/ship.gif);
+  top: 0%;
+  z-index: 2;
+  left: 50%;
+  width: 177px;
+  height: 180px;
+}
+.clouds1{
+  position: fixed;
+  background: url(images/clouds1.png);
+  width: 384px;
+  height: 288px;
+  top: 55%;
+  z-index: 1;
+  left: 55%;
+}
+.clouds{
+  position: fixed;
+  background: url(images/clouds.png);
+  width: 1000px;
+  height: 500px;
+  top: 100%;
+  z-index: 1;
+}
