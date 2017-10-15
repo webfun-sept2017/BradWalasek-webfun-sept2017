@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Index</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='my_stylesheet.css')}}">
+  </head>
+  <body>
+    <form action="/result" method="post">
+      <div class="text">
+        Your Name:
+        <br>
+        Your location
+        <br>
+        Your Favorite Language
+        <br>
+        Comments?
+      </div>
+      <div class="inputs">
+
+
+        <input type="text" name="name" value="">
+        <br>
+        <select class ="loc" name="location">
+          <option value="san_jose">San Jose</option>
+          <option value="bellevue">Bellevue</option>
+          <option value="online">Online</option>
+        </select>
+        <br>
+        <select class="lan" name="language">
+          <option value="python">Python</option>
+          <option value="anything">All Others</option>
+        </select>
+      </div>
+      <textarea name="comments" rows="4" cols="59"></textarea>
+      <br>
+      <input class ="submitbutton" type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>

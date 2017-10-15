@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Counter page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='main.css' )}}">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript" src="{{url_for('static', filename='functions.js')}}"></script>
+
+  </head>
+  <body>
+    <h1>Counter</h1>
+    <h2>{{session['count']}} times.</h2>
+    <form action="/add2" method="post">
+      <input type="submit" name="" value="Add Two">     
+    </form>
+    <form action="/reset_count" method="post">
+      <input type="submit" name="" value="Reset">
+    </form>
+  </body>
+</html>
