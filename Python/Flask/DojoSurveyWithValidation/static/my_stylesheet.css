@@ -1,0 +1,40 @@
+h1{
+  /*color: blue;*/
+}
+form{
+  width:500px;
+  height:218px;
+  border: 2px solid black;
+}
+textarea{
+  margin-left: 2px;
+}
+
+select{
+  margin-right: 10px;
+}
+.text{
+  width: 240px;
+  height: 100px;
+  border: 2px solid black;
+  text-align: left;
+  display: inline-block;
+  margin: 2px;
+
+}
+.inputs{
+  width: 240px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid black;
+  vertical-align: top;
+  margin: 2px;
+}
+table{
+  border: 2px solid black;
+}
+td{
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+}
