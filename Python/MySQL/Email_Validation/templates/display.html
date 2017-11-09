@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SUCCESS</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+      <p>The Email entered is a valid one! Thank you!</p>
+      <div class="email">
+
+
+      {%with messages = session['print'] %}
+        {%if messages%}
+          {%for message in messages%}
+            {{message['email']}}
+            <br>
+          {%endfor%}
+        {%endif%}
+      {%endwith%}
+      </div>
+      <div class="date">
+        {%with messages = session['print'] %}
+          {%if messages%}
+            {%for message in messages%}
+              {{message['createdat']}}
+              <br>
+            {%endfor%}
+          {%endif%}
+        {%endwith%}
+
+      </div>
+    </div>
+    <form action="/" method="get">
+      <input type="submit" name="" value="Return to index">
+    </form>
+  </body>
+
+
+
+
+
+  <style media="screen">
+    .date{
+      float:right;
+      display: inline-block;
+    }
+    .email{
+      display: inline-block;
+    }
+    .container{
+      width:400px;
+
+    }
+  </style>
+</html>
