@@ -1,0 +1,19 @@
+#red{
+  color:red;
+}
+#blue{
+  color:blue;
+}
+#green{
+  color:rgb(0,210,0);
+}
+.window, .window2{
+  width:400px;
+  border:2px solid black;
+  display: inline-block;
+  vertical-align: top;
+  height:600px;
+}
+.window2{
+  text-align: right;
+}

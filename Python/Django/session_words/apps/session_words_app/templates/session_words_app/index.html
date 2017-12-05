@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <title></title>
+    <link rel="stylesheet" href="{% static '/session_words_app/css/main.css' %}">
+  </head>
+  <body>
+    <div class="window">
+      <h2>Add a new word</h2>
+
+      <form action="process" method="post">
+        {%csrf_token%}
+        <input type="text" name="word" value="">
+        <br>
+          Choose color
+          <br>
+        <input type="radio" name="color" value="red"> <span id="red" >Red</span>
+        <input type="radio" name="color" value="blue"> <span id="blue" >Blue</span>
+        <input type="radio" name="color" value="green"> <span id="green" >Green</span>
+        <input type="checkbox" name="check" value="True">
+        <input type="submit" name="" value="Submit">
+      </form>
+    </div>
+    <div class="window2">
+      <form class="" action="clear" method="post">
+        {%csrf_token%}
+        <input type="submit" name="" value="Clear Session">
+      </form>
+      {{request.session.count}}
+      <br>
+      {{request.session.0}}
+    </div>
+  </body>
+</html>
