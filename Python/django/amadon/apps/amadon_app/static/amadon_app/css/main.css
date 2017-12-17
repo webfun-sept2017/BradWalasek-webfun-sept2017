@@ -1,0 +1,21 @@
+h1{
+  color: blue;
+}
+table, th, td{
+  border: 1px solid black;
+  margin: 0px 0px;
+  text-align: center;
+  padding: 5px;
+  align: center;
+  margin: 10px auto;
+}
+body{
+  text-align: center;
+}
+.button{
+  border-radius: 10px;
+  height: 40px;
+  width: auto;
+  background: linear-gradient(rgb(0,150,150),rgb(0,210,210));
+  color: white;
+}

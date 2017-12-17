@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <title>Login</title>
+    <link rel="stylesheet" href="{%static 'login_and_registration_app/css/master.css'%}">
+  </head>
+  <body>
+    {%if messages%}
+    {%for message in messages%}
+    {{message}}
+    <br>
+    {%endfor%}
+    {%endif%}
+
+    <h1>Registration</h1>
+    <div class="container">
+      <form class="" action="create" method="post">
+        {%csrf_token%}
+      First Name:<input type="text" name="fn" value="">
+      <br>
+      Last Name:<input type="text" name="ln" value="">
+      <br>
+      Email:<input type="text" name="em" value="">
+      <br>
+      Password:<input type="text" name="pw" value="">
+      <br>
+      Confirm Password:<input type="text" name="cp" value="">
+      <br>
+      <input type="submit" name="" value="Register">
+      </form>
+    </div>
+    <h2>Login</h2>
+    <div class="container">
+      <form class="" action="/login" method="post">
+        {%csrf_token%}
+      Email:<input type="text" name="em" value="">
+      <br>
+      Password:<input type="text" name="pw" value="">
+      <br>
+      <input type="submit" name="" value="Login">
+      </form>
+    </div>
+    {%if all%}
+    {%for item in all%}
+    {{item.first_name}} {{item.email}}
+    <br>
+    {%endfor%}
+    {%endif%}
+  </body>
+</html>

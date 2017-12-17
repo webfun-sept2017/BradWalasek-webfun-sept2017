@@ -1,0 +1,37 @@
+.window{
+  /*background-color: blue;*/
+  border: 2px solid black;
+  display: inline-block;
+  width:800px;
+  padding-bottom: 20px;
+}
+body{
+  text-align: center;
+}
+
+h2{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.box{
+  /*border:2px solid black;*/
+  display: inline-block;
+  width:220px;
+  text-align: left;
+  vertical-align: top;
+}
+input{
+  height:24px;
+  width:200px;
+}
+.button{
+  border-radius: 10px;
+  height:40px;
+  background: linear-gradient(rgb(0,150,150),rgb(0,240,240));
+  border: 2px solid black;
+  margin: 10px;
+}
+h1{
+  text-decoration: underline;
+}

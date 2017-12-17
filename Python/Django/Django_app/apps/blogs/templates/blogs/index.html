@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index page</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'blogs/css/main.css' %}" media="screen" title="no title"  charset="utf-8">
+  </head>
+  <body>
+    {%if messages%}
+    {%for message in messages%}
+    {{message}}
+    {%endfor%}
+    {%endif%}
+    <form class="" action="/create" method="post">
+      {%csrf_token%}
+      Name : <input type="text" name="name" value="">
+      Desc : <input type="text" name="desc" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+    {%if blogs%}
+    {% for x in blogs %}
+
+    {{x.id}} {{x.name}}   {{x.desc}}
+    <form class="" action="{{x.id}}/update" method="post">
+      <input type="text" name="name" value="name">
+      <input type="text" name="desc" value="desc">
+      {%csrf_token%}
+      <input type="submit" name="" value="Update">
+    </form>
+
+    <form class="" action="{{x.id}}/destroy" method="post">
+      {%csrf_token%}
+      <input type="submit" name="" value="Delete">
+    </form>
+    <br>
+
+    {%endfor%}
+    {%endif%}
+  </body>
+</html>

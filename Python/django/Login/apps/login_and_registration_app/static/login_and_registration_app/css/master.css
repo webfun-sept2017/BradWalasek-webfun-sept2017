@@ -1,0 +1,10 @@
+
+.container{
+  width: 300px;
+  text-align: right;
+  margin:20px;
+  border: 2px solid black;
+}
+h1, h2{
+  margin-left: 20px;
+}

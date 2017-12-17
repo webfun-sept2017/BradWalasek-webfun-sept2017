@@ -1,0 +1,23 @@
+.window{
+  width:200px;
+  height: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: auto auto;
+}
+body{
+  text-align: center;
+}
+.activities{
+  width:830px;
+  height: 160px;
+  margin:40px auto;
+  border: 2px solid black;
+  text-align: left;
+}
+.button{
+  margin:20px;
+  background: linear-gradient(rgb(150,150,0),rgb(255,0,0));
+  border-radius: 10px;
+  color: rgb(255,255,0);
+}

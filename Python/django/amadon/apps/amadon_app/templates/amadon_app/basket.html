@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <title>Purchases</title>
+    <link rel="stylesheet" href="{% static 'amadon_app/css/main.css' %}">
+  </head>
+  <body>
+    <h1>These are the items in your basket.</h1>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>quantity</th>
+        <th>Total</th>
+
+      </tr>
+
+    {%if request.session.list%}
+    {%for items in request.session.list%}
+    <tr>
+
+    <td>
+    {{ items.0 }}
+    </td>
+    <td>
+      {{ items.1}}
+    </td>
+    <td>
+      {{ items.2}}
+    </td>
+    <td>
+      {{ items.3}}
+    </td>
+    </tr>
+    {%endfor%}
+    {%endif%}
+    </table>
+    <form class="" action="/amadon" method="post">
+      {%csrf_token%}
+      <input type="submit" class="button" name="" value="Back to Browsing">
+    </form>
+    <form class="" action="/amadon/buy" method="post">
+      {%csrf_token%}
+      <input type="submit" class="button" name="" value="Purchase Items">
+    </form>
+    <form class="" action="/amadon/clear" method="post">
+      {%csrf_token%}
+      <input type="submit" class="button" name="" value="Clear Basket">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <title>Amadon</title>
+    <link rel="stylesheet" href="{% static 'amadon_app/css/main.css' %}">
+  </head>
+  <body>
+    <h1>Amadon Store!</h1>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+      <form align='center' class="" action="/amadon/basket" method="post">
+        {%csrf_token%}
+        <tr>
+          <td>Dojo Tshirt</td>
+          <td>$19.99</td>
+          <td>
+            <select name="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <input type="hidden" name="item_id" value="1">
+            <input type="submit" class='button' name="" value="Add to basket">
+           </td>
+        </tr>
+      </form>
+      <form class="" action="/amadon/basket" method="post">
+        {%csrf_token%}
+        <tr>
+          <td>Dojo Sweater</td>
+          <td>$29.99</td>
+          <td>
+            <select name="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <input type="hidden" name="item_id" value="2">
+            <input type="submit" class='button' name="" value="Add to basket">
+          </td>
+        </tr>
+      </form>
+      <form class="" action="/amadon/basket" method="post">
+        {%csrf_token%}
+        <tr>
+          <td>Dojo Cup</td>
+          <td>$4.99</td>
+          <td>
+            <select name="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <input type="hidden" name="item_id" value="3">
+            <input type="submit" class='button' name="" value="Add to basket">
+          </td>
+        </tr>
+      </form>
+      <form class="" action="/amadon/basket" method="post">
+        {%csrf_token%}
+        <tr>
+          <td>Algorithm Book</td>
+          <td>$49.99</td>
+          <td>
+            <select name="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <input type="hidden" name="item_id" value="4">
+            <input type="submit" class='button' name="" value="Add to basket">
+          </td>
+        </tr>
+      </form>
+    </table>
+    <form class="" action="/amadon/basket" method="post">
+      {%csrf_token%}
+      <input type="submit" class='button' name="" value="Cart">
+    </form>
+  </body>
+</html>

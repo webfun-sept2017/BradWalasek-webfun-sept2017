@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <title>Form information</title>
+    <link rel="stylesheet" href="{% static 'survey_app/css/main.css' %}">
+  </head>
+  <body>
+    <div class="window">
+      <h2>Thanks for submitting this form! You have submitted this form {{request.session.submit}} time(s) now.</h2>
+    </div>
+    <div class="window">
+
+
+      <h1>Submitted information</h1>
+      <div class="box">
+        Name:
+        <br>
+        Location:
+        <br>
+        Favorite Language:
+        <br>
+        Comments:
+      </div>
+      <div class="box">
+        {{request.session.name}}
+        <br>
+        {{request.session.loc}}
+        <br>
+        {{request.session.lang}}
+        <br>
+        {{request.session.com}}
+      </div>
+    </div>
+  </body>
+</html>

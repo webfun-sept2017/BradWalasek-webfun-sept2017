@@ -1,0 +1,12 @@
+h1, h2{
+  color:blue;
+}
+.window{
+  border:2px solid black;
+  padding: 0px 40px;
+  display:inline-block;
+  margin: 20px;
+}
+body{
+  text-align: center;
+}
