@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {%with messages = get_flashed_messages() %}
+      {%if messages%}
+        {%for message in messages%}
+          {{message}}
+          <br>
+        {%endfor%}
+      {%endif%}
+    {%endwith%}
+    <form class="" action="/reg" method="post">
+
+
+      <label for="first">First name: <input type="text" id="first" name="first" value=""> </label>
+      <br>
+      <label for="last">Last name: <input type="text" id="last" name="last" value=""> </label>
+      <br>
+      <label for="email">Email: <input type="text" id="email" name="email" value=""> </label>
+      <br>
+      <label for="password">Password: <input type="password" id="password" name="password" value=""> </label>
+      <br>
+      <label for="passwordconfirm">Password Confirmation: <input type="password" id="passwordconfirm" name="passwordconfirm" value=""> </label>
+      <br>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
