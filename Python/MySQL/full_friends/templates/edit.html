@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+  </head>
+  <body>
+    <div class="container">
+
+
+    <h1>Edit <span class="emphasize">{{session['print'][0]['firstname']}} {{session['print'][0]['lastname']}}</span></h1>
+
+
+    <form action="/friends/{{session['print'][0]['id']}}" method="post">
+      <label for="first">First name: <input type="text" name="first" value=""></label>
+      <br>
+      <label for="last">Last name: <input type="text" name="last" value=""></label>
+      <br>
+      <label for="email">Email: <input type="text" name="email" value=""></label>
+      <input type="submit" name="" value="Change">
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+th, td, .form{
+  border: 2px solid black;
+  width: 180px;
+}
+.emphasize{
+  color: red;
+}
+body{
+  text-align: center;
+  background: white;
+}
+table{
+  margin:auto;
+}
+form{
+  display: inline-block;
+}
+.form{
+  background: linear-gradient(rgb(255,255,255),rgb(0,255,255));
+}
+.container{
+  height: 970px;
+  width: 100%;
+  background:linear-gradient(rgb(150,255,150),rgb(0,0,0))
+}
+.submit{
+  width:80px;
+  height: 40px;
+  color: blue;
+  background: rgb(0,200,200);
+  border-radius: 10px;
+}

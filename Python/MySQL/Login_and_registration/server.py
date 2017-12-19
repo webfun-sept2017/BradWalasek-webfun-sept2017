@@ -1,62 +1,33 @@
-from flask import Flask, redirect, request, session, render_template, flash
-from mysqlconnections import MySQLConnector
+from flask import Flask, redirect, request, render_template, flash, session
+from mysqlconnection import MySQLConnector
 import md5
 import os, binascii
 import re
 from flask_bcrypt import Bcrypt
+
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9\.\+_-]+@[a-zA-Z0-9\._-]+\.[a-zA-Z]*$')
 app=Flask(__name__)
 bcrypt = Bcrypt(app)
-app.secret_key = "Meh"
-mysql = MySQLConnector(app,"the_wall_db")
+mysql = MySQLConnector(app, 'login_and_registration_db')
+app.secret_key="secret"
 @app.route('/')
 def index():
-    if 'logged' in session:
-        print session['logged'][0]['first_name']
-        return redirect('/wall')
-    else:
+    try:
+        return render_template('success.html')
+    except:
         return render_template('index.html')
-@app.route('/wall', methods= ['get'])
-def wall():
-    messages = "SELECT `users`.`first_name`, `messages`.`id`, `messages`.`created_at`, `messages`.`message` from the_wall_db.users JOIN messages ON users.id = messages.user_id ORDER BY messages.id"
-    session['print'] = mysql.query_db(messages)
-
-    comments = "SELECT comments.user_id, comment ,comments.created_at, messages.id from users JOIN messages on users.id = messages.user_id JOIN comments on messages.id = comments.message_id"
-    session['comments'] = mysql.query_db(comments)
-    return render_template('thewall.html')
-
-@app.route('/add', methods=['POST'])
-def add():
-    query = "INSERT INTO messages(message, created_at, user_id) VALUES (:one, NOW(), :three)"
-    data = {
-        'one':request.form['message'],
-        'three':session['logged'][0]['id']
-    }
-    print request.form['message']
-    print session['logged'][0]['id']
-    mysql.query_db(query,data)
-    return redirect('/wall')
-@app.route('/comment/<var>', methods=['POST'])
-def comment(var):
-    query = "INSERT INTO comments(message_id, comment, created_at, user_id) VALUES (:one, :two, NOW(), :four)"
-    data = {
-        'one':var,
-        'two':request.form['comment'],
-        'four':session['logged'][0]['id']
-    }
-    mysql.query_db(query,data)
-    return redirect('/wall')
-
 @app.route('/login', methods=['POST'])
 def login():
+
     query = "SELECT * FROM `users` WHERE `email` = :one LIMIT 1"
     check = mysql.query_db(query,{'one' : request.form['em']})
-    print request.form['pw']
     if check:
+        print request.form['pw']
+
         if bcrypt.check_password_hash(check[0]['password'], request.form['pw']) == True:
             print "true"
             session['logged'] = check
-            return redirect("/wall")
+            return render_template("success.html")
         else:
             print "false"
             flash('Invalid Password!')
@@ -65,14 +36,14 @@ def login():
         flash('Invalid Email Address!')
         print "invalid Email"
         return redirect('/')
-
-@app.route('/logout', methods = ['GET'])
-def logout():
-    session.pop('logged')
-    return redirect('/')
-
-@app.route('/registration', methods=['POST'])
-def register():
+@app.route('/add', methods=['POST'])
+def add():
+    # validation steps
+# First Name - letters only, at least 2 characters and that it was submitted
+# Last Name - letters only, at least 2 characters and that it was submitted
+# Email - Valid Email format, and that it was submitted
+# Password - at least 8 characters, and that it was submitted
+# Password Confirmation - matches password
     query = "SELECT * FROM `users` WHERE `email` = :one LIMIT 1"
     check = mysql.query_db(query,{'one' : request.form['em']})
     if check:
@@ -95,18 +66,19 @@ def register():
         return redirect('/')
 
 
+
     password = bcrypt.generate_password_hash(request.form['pw'])
-    query = "INSERT INTO `the_wall_db`.`users` (`first_name`,`last_name`,`email`,`password`,`created_at`) VALUES (:one, :two, :three, :four, NOW())"
+    # salt =  binascii.b2a_hex(os.urandom(15))
+    # password = md5.new(request.form['pw'] + salt).hexdigest();
+    query = "INSERT INTO `login_and_registration_db`.`users` (`first_name`,`last_name`,`email`,`password`,`created_at`) VALUES (:one, :two, :three, :four, NOW())"
     data = {'one' : request.form['fn'], 'two' : request.form['ln'], 'three' : request.form['em'], 'four' : password,}
     mysql.query_db(query,data)
     query = "SELECT * FROM `users` WHERE `email` = :one LIMIT 1"
     session['logged'] = mysql.query_db(query,{'one' : request.form['em']})
     print session['logged']
-    return render_template('thewall.html')
-
-# app.run(host="0.0.0.0")
-app.run(debug = True)
-
-
-
-# code=307
+    return render_template('success.html')
+@app.route('/logout')
+def logout():
+    session.pop('logged')
+    return redirect('/')
+app.run(debug=True)

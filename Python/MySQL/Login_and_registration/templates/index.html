@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Index Page!</h1>
+      <div class="flashed">
+        {%with messages = get_flashed_messages()%}
+        {%if messages%}
+        {%for message in messages%}
+        {{message}}
+        <br>
+        {%endfor%}
+        {%endif%}
+        {%endwith%}
+      </div>
+      <div class="login">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+          <div class="labels">
+            <label for="lem">Email:</label><br>
+            <label for="lpw">Password:</label><br>
+          </div>
+          <div class="inputs">
+            <input id = "lem" type="text" name="em" value=""><br>
+            <input id = "lpw" type="text" name="pw" value=""><br>
+            <input type="submit" name="" value="Login">
+          </div>
+        </form>
+      </div>
+      <div class="register">
+        <h2>Register</h2>
+        <!-- <form action="index.html" method="post">
+          <label for="fn">First Name:<input id = "fn" type="text" name="fn" value=""> </label><br>
+          <label for="ln">Last Name:<input id = "ln" type="text" name="ln" value=""> </label><br>
+          <label for="em">Email:<input id = "em" type="text" name="em" value=""> </label><br>
+          <label for="pw">Password:<input id = "pw" type="text" name="pw" value=""> </label><br>
+          <input type="submit" name="" value="Submit">
+        </form> -->
+        <form action="/add" method="post">
+          <div class="labels">
+            <label for="fn">First Name:</label><br>
+            <label for="ln">Last Name:</label><br>
+            <label for="em">Email:</label><br>
+            <label for="pw">Password:</label><br>
+          </div>
+          <div class="inputs">
+            <input id = "fn" type="text" name="fn" value="">
+            <br>
+            <input id = "ln" type="text" name="ln" value="">
+            <br>
+            <input id = "em" type="text" name="em" value="">
+            <br>
+            <input id = "pw" type="text" name="pw" value="">
+            <br>
+            <input type="submit" name="" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

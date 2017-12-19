@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Login Screen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
   </head>
   <body>
     <h1>Login</h1>
@@ -10,23 +11,28 @@
       {%if messages%}
         {%for message in messages%}
           {{message}}
+          <br>
         {%endfor%}
       {%endif%}
     {%endwith%}
-    <form class="" action="/login" method="post">
-      <label for="user">First name:<input name="user"></label>
+    <form class="forms" action="/login" method="POST">
+      <label for="email">Email:<input id="email" name="em"></label>
       <br>
-      <label for="password">Password:<input type="password" name="password"></label>
+      <label for="password">Password:<input type="password" id="password" name="pw"></label>
       <br>
-      <input type="submit" name="" value="Login">
+      <input type="submit" class="button" name="" value="Login">
     </form>
-    <h2>Register (i/w)</h2>
-    <form action="/registration" method="post">
-      <label for="first_name">First Name:<input type="text" name="first_name" value=""></label>
-      <label for="last_name">Last Name:<input type="text" name="last_name" value=""></label>
-      <label for="email">Email:<input type="text" name="email" value=""></label>
-      <label for="password">Password:<input type="text" name="password" value=""></label>
-      <input type="submit" name="" value="Register">
+    <h2>Register</h2>
+    <form class="forms" action="/registration" method="post">
+      <label for="first_name">First Name:<input type="text" name="fn" value=""></label>
+      <br>
+      <label for="last_name">Last Name:<input type="text" name="ln" value=""></label>
+      <br>
+      <label for="email">Email:<input type="text" name="em" value=""></label>
+      <br>
+      <label for="password">Password:<input type="text" name="pw" value=""></label>
+      <br>
+      <input class="button" type="submit" name="" value="Register">
     </form>
   </body>
 </html>

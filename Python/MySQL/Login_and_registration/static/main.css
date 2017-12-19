@@ -1,0 +1,33 @@
+html{
+  height: 100%;
+}
+body{
+  height: 98%;
+}
+.container{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+.login, .register{
+border: 2px solid black;
+width: 300px;
+margin: 40px auto;
+padding-bottom: 20px;
+
+}
+.inputs, .labels{
+  display: inline-block;
+  vertical-align: top;
+}
+.labels{
+  height: 90px;
+  font-size: 19px;
+}
+.flashed{
+
+}
+table, td{
+  border: 2px solid black;
+}
