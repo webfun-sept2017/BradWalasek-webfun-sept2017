@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Add a New Book Title and a Review</h1>
+    <form class="" action="/create" method="post">
+      {%csrf_token%}
+      Book Title: <input type="text" name="ti" value=""><br>
+      Author: <input type="au" name="" value=""><br>
+      Review: <textarea name="de" rows="8" cols="80"></textarea><br>
+      Rating:
+      <select class="" name="stars">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select> Stars <br>
+
+      <input type="submit" name="" value="Add Book and Review">
+    </form>
+  </body>
+</html>

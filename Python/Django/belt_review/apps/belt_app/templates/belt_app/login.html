@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <title>Login</title>
+    <link rel="stylesheet" href="{%static 'belt_app/css/master.css'%}">
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+    <div class="window">
+      <h2>Register</h2>
+      <form action="/create" method="post">
+        {%csrf_token%}
+        First Name: <input type="text" name="fn" value="brad"><br>
+        Last Name: <input type="text" name="ln" value="w"><br>
+        Email: <input type="text" name="em" value="h@outlook.com"><br>
+        Password: <input type="text" name="pw" value="abc"><br>
+        *Password should be at least 8 characters <br>
+        Confirm PW: <input type="text" name="cp" value="abc"><br>
+        <input type="submit" name="" value="Register">
+      </form>
+    </div>
+    <div class="window">
+      <form action ="/login" method="post">
+        {%csrf_token%}
+        <h2>Login</h2>
+        Email: <input type="text" name="em" value=""><br>
+        Password: <input type="text" name="pw" value=""><br>
+        <input type="submit" name="" value="Login">
+    </form>
+    </div>
+    <br>
+    {%if users%}
+    {%for user in users%}
+    {{user}}
+    <br>
+    {%endfor%}
+    {%endif%}
+  </body>
+</html>
