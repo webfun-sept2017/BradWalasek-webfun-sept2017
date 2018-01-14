@@ -10,9 +10,13 @@ class User(models.Model):
     email = models.CharField(max_length=255)
     password = models.CharField(max_length=255)
 
+class Book(models.Model):
+    title = models.CharField(max_length=255)
+    author = models.CharField(max_length = 255)
+
 class Review(models.Model):
-    book = models.CharField(max_length=255)
-    desc = models.CharField(max_length = 255)
+    book = models.ForeignKey(Book, related_name = "reviews")
+    user = models.ForeignKey(User, related_name = "reviews")
+    content = models.TextField()
     stars = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add = True)
-    user = models.ManyToManyField(User, related_name="reviews")

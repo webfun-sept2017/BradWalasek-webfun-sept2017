@@ -16,10 +16,10 @@
         <br>
           Choose color
           <br>
-        <input type="radio" name="color" value="red"> <span id="red" >Red</span>
-        <input type="radio" name="color" value="blue"> <span id="blue" >Blue</span>
-        <input type="radio" name="color" value="green"> <span id="green" >Green</span>
-        <input type="checkbox" name="check" value="True">
+        <input type="radio" name="color" value="red"> <span class="red" >Red</span>
+        <input type="radio" name="color" value="blue"> <span class="blue" >Blue</span>
+        <input type="radio" name="color" value="green"> <span class="green" >Green</span>
+        <input type="checkbox" name="size" value="True">
         <input type="submit" name="" value="Submit">
       </form>
     </div>
@@ -30,7 +30,11 @@
       </form>
       {{request.session.count}}
       <br>
-      {{request.session.0}}
+      {%if request.session.list%}
+      {%for entry in request.session.list%}
+      <p class="{{entry.color}} {{entry.size}}"  >{{entry.word}}</p>
+      {%endfor%}
+      {%endif%}
     </div>
   </body>
 </html>

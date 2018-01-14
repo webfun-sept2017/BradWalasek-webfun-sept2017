@@ -14,6 +14,16 @@ class User(models.Model):
     created_at = models.DateTimeField(auto_now_add = True)
     def __str__(self):
         return "id {}, fn {} ln {} em {} pass {}".format(self.id, self.first_name, self.last_name, self.email, self.password)
+class Message(models.Model):
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add = True)
+    writer = models.ForeignKey(User, related_name="messages")
+
+
+
+
+
+
 class Validate(object):
     def go(request, postData):
         error = []

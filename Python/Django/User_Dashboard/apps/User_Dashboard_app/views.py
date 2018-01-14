@@ -42,7 +42,6 @@ def create(request):
 
         user = User.objects.get(email = request.POST['em'])
         if user == User.objects.first():
-            print "Should be admin"
             user.authority = "admin"
             user.save()
         else:

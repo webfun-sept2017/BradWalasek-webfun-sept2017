@@ -9,12 +9,14 @@
     <a href="/book/add">Add book and review</a>
     <a href="/logout">Logout</a>
     <h2>Recent Book Reviews:</h2>
-    {%if reviews%}
-    {%for review in reviews%}
-    <a href="/book/{{review.book}}">{{review.book}}</a><br>
-    Rating: {{review.stars}}<br>
-    {{review.user.first.first_name}} says :{{review.desc}}<br>
-    Posted on {{review.created_at}}
+    {%if books%}
+    {%for book in books%}
+    <a href="/book/{{review.id}}">{{book.title}}</a><br>
+    Author: {{book.author}}<br>
+    Review: {{book.reviews}}<br>
+
+    {{reviews}}
+
     <br>
     {%endfor%}
     {%endif%}

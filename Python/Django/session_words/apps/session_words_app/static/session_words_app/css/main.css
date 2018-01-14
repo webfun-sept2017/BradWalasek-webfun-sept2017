@@ -1,10 +1,10 @@
-#red{
+.red{
   color:red;
 }
-#blue{
+.blue{
   color:blue;
 }
-#green{
+.green{
   color:rgb(0,210,0);
 }
 .window, .window2{
@@ -12,8 +12,14 @@
   border:2px solid black;
   display: inline-block;
   vertical-align: top;
-  height:600px;
+  height:auto;
 }
 .window2{
   text-align: right;
+}
+.small{
+  font-size: 10px;
+}
+.large{
+  font-size: 40px;
 }
