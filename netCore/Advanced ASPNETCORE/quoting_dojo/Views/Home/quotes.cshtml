@@ -1,0 +1,19 @@
+@{
+    ViewData["title"] = "Quote Page";
+}
+<h1>Here are the awesome quotes!</h1>
+
+@{
+    foreach(var user in ViewBag.quotes)
+    {
+        <div class="section">
+            
+            
+           "@user["quote"]"
+           <br>
+            <span style="margin-left: 60px">-@user["author"] at @user["created_at"]</span>
+            
+        </div>
+        
+    }
+}

@@ -1,0 +1,18 @@
+﻿li{
+    text-decoration-style: none;
+    color: red;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: palegreen;
+}
+a{
+    color: red;
+}
+.window{
+    border:2px solid black;
+    padding: 10px;
+    display: inline-block;
+    width:600px;
+    height: 400px;
+}

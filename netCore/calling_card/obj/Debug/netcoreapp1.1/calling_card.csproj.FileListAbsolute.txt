@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\bin\Debug\netcoreapp1.1\calling_card.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\bin\Debug\netcoreapp1.1\calling_card.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\bin\Debug\netcoreapp1.1\calling_card.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\bin\Debug\netcoreapp1.1\calling_card.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\bin\Debug\netcoreapp1.1\calling_card.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\obj\Debug\netcoreapp1.1\calling_card.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\obj\Debug\netcoreapp1.1\calling_card.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\calling_card\obj\Debug\netcoreapp1.1\calling_card.pdb

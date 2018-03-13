@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\bin\Debug\netcoreapp1.1\testing_ground.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\bin\Debug\netcoreapp1.1\testing_ground.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\bin\Debug\netcoreapp1.1\testing_ground.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\bin\Debug\netcoreapp1.1\testing_ground.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\bin\Debug\netcoreapp1.1\testing_ground.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\obj\Debug\netcoreapp1.1\testing_ground.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\obj\Debug\netcoreapp1.1\testing_ground.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\testing_ground\obj\Debug\netcoreapp1.1\testing_ground.pdb

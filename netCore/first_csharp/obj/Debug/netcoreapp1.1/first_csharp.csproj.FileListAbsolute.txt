@@ -1,8 +1,0 @@
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\bin\Debug\netcoreapp1.1\first_csharp.deps.json
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\bin\Debug\netcoreapp1.1\first_csharp.runtimeconfig.json
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\bin\Debug\netcoreapp1.1\first_csharp.runtimeconfig.dev.json
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\bin\Debug\netcoreapp1.1\first_csharp.dll
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\bin\Debug\netcoreapp1.1\first_csharp.pdb
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\obj\Debug\netcoreapp1.1\first_csharp.AssemblyInfo.cs
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\obj\Debug\netcoreapp1.1\first_csharp.dll
-C:\Users\Brad\Desktop\DojoAssignments\netCore\first_csharp\obj\Debug\netcoreapp1.1\first_csharp.pdb

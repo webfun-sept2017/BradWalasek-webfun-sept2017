@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\bin\Debug\netcoreapp1.1\HelloASP.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\bin\Debug\netcoreapp1.1\HelloASP.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\bin\Debug\netcoreapp1.1\HelloASP.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\bin\Debug\netcoreapp1.1\HelloASP.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\bin\Debug\netcoreapp1.1\HelloASP.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\obj\Debug\netcoreapp1.1\HelloASP.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\obj\Debug\netcoreapp1.1\HelloASP.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\HelloASP\obj\Debug\netcoreapp1.1\HelloASP.pdb

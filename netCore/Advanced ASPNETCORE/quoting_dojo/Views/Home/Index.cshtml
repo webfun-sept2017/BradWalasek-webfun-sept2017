@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Welcome to QuotingDojo!</h1>
+@ViewBag.error
+<form action="quotes" method="POST">
+    <div class="block">
+        Your Name: <input type="text" name="author">
+    </div>
+    <br>
+    <div class="block">
+        <p class="block">Your Quote:</p>
+        <br>
+        <input class="button" type="submit" value="Post">
+    </div>
+    <textarea cols="600" rows="5" name="text"></textarea>
+</form>
+<form action="quotes" method="GET">
+    <input type="submit" value="Quotes">
+</form>

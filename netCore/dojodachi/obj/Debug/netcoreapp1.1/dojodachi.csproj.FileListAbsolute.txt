@@ -1,0 +1,16 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\bin\Debug\netcoreapp1.1\dojodachi.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\bin\Debug\netcoreapp1.1\dojodachi.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\bin\Debug\netcoreapp1.1\dojodachi.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\bin\Debug\netcoreapp1.1\dojodachi.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\bin\Debug\netcoreapp1.1\dojodachi.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\obj\Debug\netcoreapp1.1\dojodachi.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\obj\Debug\netcoreapp1.1\dojodachi.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodatchi\obj\Debug\netcoreapp1.1\dojodachi.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\bin\Debug\netcoreapp1.1\dojodachi.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\bin\Debug\netcoreapp1.1\dojodachi.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\bin\Debug\netcoreapp1.1\dojodachi.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\bin\Debug\netcoreapp1.1\dojodachi.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\bin\Debug\netcoreapp1.1\dojodachi.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\obj\Debug\netcoreapp1.1\dojodachi.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\obj\Debug\netcoreapp1.1\dojodachi.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\dojodachi\obj\Debug\netcoreapp1.1\dojodachi.pdb

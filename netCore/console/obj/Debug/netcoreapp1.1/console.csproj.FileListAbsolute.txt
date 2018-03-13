@@ -1,0 +1,16 @@
+C:\Users\Brad\Desktop\console\bin\Debug\netcoreapp1.1\console.deps.json
+C:\Users\Brad\Desktop\console\bin\Debug\netcoreapp1.1\console.runtimeconfig.json
+C:\Users\Brad\Desktop\console\bin\Debug\netcoreapp1.1\console.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\console\bin\Debug\netcoreapp1.1\console.dll
+C:\Users\Brad\Desktop\console\bin\Debug\netcoreapp1.1\console.pdb
+C:\Users\Brad\Desktop\console\obj\Debug\netcoreapp1.1\console.AssemblyInfo.cs
+C:\Users\Brad\Desktop\console\obj\Debug\netcoreapp1.1\console.dll
+C:\Users\Brad\Desktop\console\obj\Debug\netcoreapp1.1\console.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\bin\Debug\netcoreapp1.1\console.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\bin\Debug\netcoreapp1.1\console.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\bin\Debug\netcoreapp1.1\console.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\bin\Debug\netcoreapp1.1\console.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\bin\Debug\netcoreapp1.1\console.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\obj\Debug\netcoreapp1.1\console.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\obj\Debug\netcoreapp1.1\console.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\console\obj\Debug\netcoreapp1.1\console.pdb

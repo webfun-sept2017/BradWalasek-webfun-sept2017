@@ -1,0 +1,8 @@
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\bin\Debug\netcoreapp1.1\cards.deps.json
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\bin\Debug\netcoreapp1.1\cards.runtimeconfig.json
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\bin\Debug\netcoreapp1.1\cards.runtimeconfig.dev.json
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\bin\Debug\netcoreapp1.1\cards.dll
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\bin\Debug\netcoreapp1.1\cards.pdb
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\obj\Debug\netcoreapp1.1\cards.AssemblyInfo.cs
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\obj\Debug\netcoreapp1.1\cards.dll
+c:\Users\Brad\Desktop\DojoAssignments\netCore\cards\obj\Debug\netcoreapp1.1\cards.pdb

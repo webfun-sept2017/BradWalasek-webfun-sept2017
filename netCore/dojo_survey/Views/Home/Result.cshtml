@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/master.css"/>
+</head>
+<body>
+    <div class="window">
+        <h2>Submitted Info</h2>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>@ViewBag.name</td>
+            </tr>
+            <tr>
+                <td>Dojo Location:</td>
+                <td>@ViewBag.loc</td>
+            </tr>
+            <tr>
+                <td>Favorite Language:</td>
+                <td>@ViewBag.lan</td>
+            </tr>
+            <tr>
+                <td>Comment:</td>
+                <td>@ViewBag.com</td>
+            </tr>
+        </table>
+        <form action="/">
+            <input type="submit" value="Go Back"></input>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\bin\Debug\netcoreapp1.1\PokeInfo.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\bin\Debug\netcoreapp1.1\PokeInfo.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\bin\Debug\netcoreapp1.1\PokeInfo.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\bin\Debug\netcoreapp1.1\PokeInfo.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\bin\Debug\netcoreapp1.1\PokeInfo.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\obj\Debug\netcoreapp1.1\PokeInfo.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\obj\Debug\netcoreapp1.1\PokeInfo.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\PokeInfo\obj\Debug\netcoreapp1.1\PokeInfo.pdb

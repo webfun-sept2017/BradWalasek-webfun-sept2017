@@ -1,0 +1,16 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\obj\Debug\netcoreapp1.1\quoting_dojo.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\obj\Debug\netcoreapp1.1\quoting_dojo.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\quoting_dojo\obj\Debug\netcoreapp1.1\quoting_dojo.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\bin\Debug\netcoreapp1.1\quoting_dojo.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\obj\Debug\netcoreapp1.1\quoting_dojo.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\obj\Debug\netcoreapp1.1\quoting_dojo.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\AJAX Test\quoting_dojo\obj\Debug\netcoreapp1.1\quoting_dojo.pdb
