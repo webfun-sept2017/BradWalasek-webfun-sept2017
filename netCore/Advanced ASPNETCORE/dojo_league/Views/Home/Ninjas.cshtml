@@ -1,0 +1,58 @@
+@model List<Dictionary<string,string>>;
+@{
+    ViewData["Title"] = "Ninjas";
+}
+<div class="box">
+<div class="half" style="border-right:4px solid black;">
+    <h1>All Ninjas</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Ninja Name</th>
+            <th>Home Dojo</th>
+        </tr>
+        @{
+            foreach(var ninja in @Model)
+            {
+                <tr>
+                    <td>@ninja["name"]</td>
+                    <td>@ninja["location"]</td>
+                
+                </tr>
+            }
+        }
+        <!-- <tr>
+            <td><a href="/">Name Example</a></td>
+            <td><a href="/">Dojo Example</a></td>
+        </tr> -->
+    </table>
+</div>
+
+<div class="half">
+    <form action="/Ninja/Add" method="POST">
+    <h1>Register A Ninja</h1>
+    <p><label for="name">Ninja Name:</label></p>
+    <p><input type="text" id="name" name="name"></p>
+    <p><label>Ninjaing Level:</label></p>
+    <p>
+        <select name="level">
+            @{
+                for(int x = 1; x < 11; x++)
+                {
+                    <option value=@x>@x</option>
+                }
+            }
+        </select>
+    </p>
+    <p><label>Assigned Dojo?</label></p>
+    <p>
+        <select name="dojo_id">
+            <option value = "1">Rogue</option>
+            <option value = "2">Dojo option</option>
+        </select>
+    </p>
+    <p><label for="description">Additional Ninja Information</label></p>
+    <p><textarea cols=60 rows=4 name="description" id="description"></textarea></p>
+    <p><input type="submit" class="button" value="Add"></p>
+    </form>
+</div>
+</div>

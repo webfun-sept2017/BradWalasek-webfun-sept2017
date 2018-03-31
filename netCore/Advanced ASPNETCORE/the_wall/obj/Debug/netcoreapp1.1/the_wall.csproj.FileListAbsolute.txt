@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\bin\Debug\netcoreapp1.1\the_wall.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\bin\Debug\netcoreapp1.1\the_wall.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\bin\Debug\netcoreapp1.1\the_wall.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\obj\Debug\netcoreapp1.1\the_wall.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\bin\Debug\netcoreapp1.1\the_wall.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\bin\Debug\netcoreapp1.1\the_wall.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\obj\Debug\netcoreapp1.1\the_wall.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\the_wall\obj\Debug\netcoreapp1.1\the_wall.pdb

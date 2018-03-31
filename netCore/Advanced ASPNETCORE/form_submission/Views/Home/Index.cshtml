@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="wrapper">
+<h1>Enter Your Information</h1>
+    <div class="block">
+        <p>First Name:</p>
+        <p>Last Name:</p>
+        <p>Age:</p>
+        <p>Email Address:</p>
+        <p>Password:</p>
+    </div>
+    <div class="block">
+        <form action="validation" method="POST">
+            <input type="text" name="first" >
+            <input type="text" name="last" >
+            <input type="text" name="age">
+            <input type="text" name="email">
+            <input type="password" name="password">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>

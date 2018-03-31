@@ -1,0 +1,53 @@
+﻿@model the_wall.Models.Bundle
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="block">
+<h1>Welcome to The Wall @Model.name!</h1>
+
+<form action="quotes" method="POST">
+    Write a comment?
+    <br>
+    <textarea cols=80 rows = 4 name="message"></textarea>
+    <input type="submit" value="Post a message">
+</form>
+</div>
+
+
+
+
+
+@{
+    foreach(var message in @Model.messages){
+        <div class="message">
+        @message["firstname"] <span> wrote at </span> @message["created_at"]
+        <br>
+        @message["content"]
+        <br>
+        
+        @{
+            foreach(var comment in @Model.comments){
+            if(Convert.ToInt32(@message["message_id"]) == Convert.ToInt32(@comment["message_id"])){
+                <br>
+                
+                <br>
+                @comment["firstname"] <span> Commented:</span>
+                
+                <br>
+                
+                @comment["content"]
+                }
+            }
+        }
+        
+        
+        <form action="comment" method="POST">
+            <input type="text" name=comment>
+            <input type="hidden" name="id" value=@message["message_id"]>
+            <input type="submit" value="comment">
+        </form>
+        <br>
+        </div>
+        
+    }
+}

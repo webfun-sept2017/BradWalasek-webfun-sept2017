@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<h1>Login And Register</h1>
+<div class="box">
+<div class="block">
+    <h2>Login</h2>
+    <form action="verify" method="POST">
+        <p>Email Address:<input type="text" name="email"></p>
+        <p>Password:<input type="password" name="password"></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</div>
+    <p>@ViewBag.login</p>
+</div>
+
+    
+
+<div class="box">
+<div class="block">
+    <h2>Register</h2>
+    <form action="new" method="POST">
+        <p>First Name:<input type="text" name="firstname"></p>
+        <p>Last Name:<input type="text" name="lastname"></p>
+        <p>Email:<input type="text" name="email"></p>
+        <p>Password:<input type="password" name="password"></p>
+        <p>Confirm Password:<input type="password" name="passconf"></p>
+        <input type="submit" value="Submit"></p>
+    </form>
+</div>
+@{      
+        try{
+            foreach(var error in @ViewBag.error)
+            {
+                if(@error.Errors.Count > 0)
+                {
+                    <p>@error.Errors[0].ErrorMessage</p>
+                }
+            }
+        }
+    catch{}
+    }
+</div>
+

@@ -1,0 +1,10 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\bin\Debug\netcoreapp2.0\lost_in_the_woods.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\bin\Debug\netcoreapp2.0\lost_in_the_woods.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\bin\Debug\netcoreapp2.0\lost_in_the_woods.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\bin\Debug\netcoreapp2.0\lost_in_the_woods.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\bin\Debug\netcoreapp2.0\lost_in_the_woods.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\obj\Debug\netcoreapp2.0\lost_in_the_woods.csproj.CoreCompileInputs.cache
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\obj\Debug\netcoreapp2.0\lost_in_the_woods.AssemblyInfoInputs.cache
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\obj\Debug\netcoreapp2.0\lost_in_the_woods.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\obj\Debug\netcoreapp2.0\lost_in_the_woods.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\lost_in_the_woods\obj\Debug\netcoreapp2.0\lost_in_the_woods.pdb

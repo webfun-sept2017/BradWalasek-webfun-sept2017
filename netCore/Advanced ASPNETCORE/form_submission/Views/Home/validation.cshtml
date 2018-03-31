@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Result";
+}
+@{
+    bool success = true;
+    foreach(var error in ViewBag.error)
+    {
+        if(@error.Errors.Count > 0)
+            {
+                // We show the first error for that field
+                <p>@error.Errors[0].ErrorMessage</p>
+                success = false;
+            }
+        
+    }
+    if (success == true){
+        <h1>Success!</h1>
+    }
+}

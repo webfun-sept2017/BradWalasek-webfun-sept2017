@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\bin\Debug\netcoreapp1.1\form_submission.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\bin\Debug\netcoreapp1.1\form_submission.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\bin\Debug\netcoreapp1.1\form_submission.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\bin\Debug\netcoreapp1.1\form_submission.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\bin\Debug\netcoreapp1.1\form_submission.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\obj\Debug\netcoreapp1.1\form_submission.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\obj\Debug\netcoreapp1.1\form_submission.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\form_submission\obj\Debug\netcoreapp1.1\form_submission.pdb

@@ -1,0 +1,32 @@
+﻿@model List<lost_in_the_woods.Trail>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Lost in the Woods</h1>
+<h3>List of local hiking trails</h3>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+        <tr>
+        <th>Trail Name</th>
+        <th>Trail Length</th>
+        <th>Elevation Change</th>
+        </tr>
+        </thead>
+        <tr>
+            <td><a href="">Mount Si</a></td>
+            <td>7.6</td>
+            <td>3277 feet</td>
+        </tr>
+        @{
+            foreach(var trail in @Model){
+               <tr>
+                    <td><a href="trail/@trail.name"> @trail.name</a></td>
+                    <td>@trail.length</td>
+                    <td>@trail.elevation</td>
+               </tr>
+            }
+        }
+    </table>
+    <form action="NewTrail">
+        <input type="submit" value="Add a new trail">
+    </form>

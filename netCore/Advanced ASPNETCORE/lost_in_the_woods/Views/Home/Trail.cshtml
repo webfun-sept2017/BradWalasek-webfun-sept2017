@@ -1,0 +1,15 @@
+@model lost_in_the_woods.Trail
+@{
+    ViewData["Title"]="Trails";
+}
+
+<h1>@Model.name</h1>
+<a href="/">Go Home</a>
+<h2>Description</h2>
+<p>@Model.description</p>
+<h2>Trail Length</h2>
+<p>@Model.length</p>
+<h2>Elevation Change</h2>
+<p>@Model.elevation</p>
+<h2>Latitude-Longitude</h2>
+<p>@Model.latitude @Model.longitude</p>

@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"]="Add Trail";
+}
+<div class="header">
+<span style="text-decoration:underline"><h1>Add a New Trail</h1></span>
+<a href="/">Go Home</a>
+</div>
+<div class="well well-lg">
+<form action="Add" method="POST">
+    <p>
+    <label for="name">Trail Name:</label>
+    <input type="text" id="name" name="name">
+    </p>
+    <p>
+    <label for="length">Trail Length:</label>
+    <input type="text" id = "length" name="length"><br>
+    </p>
+    <p>
+    <label for="elevation">Elevation Change:</label>
+    <input type="text" id = "elevation" name="elevation"><br>
+    </p>
+    <p>
+    <label for="latitude">Latitude and Longitude</label>
+    <input type="text" id = "latitude" name="latitude">
+    <input type="text" id = "longitude" name="longitude">
+    
+    </p>
+    <p>
+    <label for="description">Description:</label>
+    <textarea cols="40" rows="4" name="description" id="description"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+</form>
+@{
+    foreach(var error in ViewBag.errors)
+    {
+        if(@error.Errors.Count>0)
+        {
+            <p>@error.Errors[0].ErrorMessage</p>
+        }
+    }
+}
+</div>

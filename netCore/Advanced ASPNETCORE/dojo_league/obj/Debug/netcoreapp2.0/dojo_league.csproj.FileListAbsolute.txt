@@ -1,0 +1,10 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\bin\Debug\netcoreapp2.0\dojo_league.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\bin\Debug\netcoreapp2.0\dojo_league.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\bin\Debug\netcoreapp2.0\dojo_league.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\bin\Debug\netcoreapp2.0\dojo_league.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\bin\Debug\netcoreapp2.0\dojo_league.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\obj\Debug\netcoreapp2.0\dojo_league.csproj.CoreCompileInputs.cache
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\obj\Debug\netcoreapp2.0\dojo_league.AssemblyInfoInputs.cache
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\obj\Debug\netcoreapp2.0\dojo_league.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\obj\Debug\netcoreapp2.0\dojo_league.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\dojo_league\obj\Debug\netcoreapp2.0\dojo_league.pdb

@@ -1,0 +1,8 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\bin\Debug\netcoreapp1.1\login_and_registration.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\bin\Debug\netcoreapp1.1\login_and_registration.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\bin\Debug\netcoreapp1.1\login_and_registration.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\bin\Debug\netcoreapp1.1\login_and_registration.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\bin\Debug\netcoreapp1.1\login_and_registration.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\obj\Debug\netcoreapp1.1\login_and_registration.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\obj\Debug\netcoreapp1.1\login_and_registration.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\login_and_registration\obj\Debug\netcoreapp1.1\login_and_registration.pdb
