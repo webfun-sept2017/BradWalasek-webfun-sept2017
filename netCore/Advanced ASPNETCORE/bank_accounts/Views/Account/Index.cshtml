@@ -1,0 +1,52 @@
+﻿@model User;
+@{
+    ViewData["Title"] = "Account page";
+}
+
+<h1>@Model.firstname</h1>
+<table>
+    <tr>
+        <th>Transactions</th>
+        <th>Date</th>
+    </tr>
+@{
+    float total = 0;
+    foreach(var item in @Model.Transactions)
+    {
+        total += @item.amount;
+        
+        <tr>
+            <td>
+           
+                @if (@item.amount > 0)
+                {
+                    <span style="font-size:20px;color:green">@item.amount</span>
+                    
+                }
+                else
+                {
+                    <span style="font-size:20px;color:red">@item.amount</span>
+                    
+                }
+            
+            </td>
+            <td>
+                @item.created_on
+            </td>
+        </tr>
+        
+        
+    }
+    
+
+}
+</table>
+<h3>Balance: @total</h3>
+<form action="/user/@Model.userid/add" method="POST">
+<h2>Add Transaction</h2>
+    <input type="hidden" name="balance" value=@total>
+    <input type="text" name="amount">
+    <input type="submit" value="Submit">
+</form>
+<h2><span style="color:red">@ViewBag.Error</span></h2>
+<a href="/logout">Log Out</a>

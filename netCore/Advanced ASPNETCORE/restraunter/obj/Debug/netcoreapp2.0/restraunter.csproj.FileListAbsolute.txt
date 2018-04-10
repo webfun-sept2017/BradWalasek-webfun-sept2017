@@ -1,0 +1,10 @@
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\bin\Debug\netcoreapp2.0\restraunter.deps.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\bin\Debug\netcoreapp2.0\restraunter.runtimeconfig.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\bin\Debug\netcoreapp2.0\restraunter.runtimeconfig.dev.json
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\bin\Debug\netcoreapp2.0\restraunter.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\bin\Debug\netcoreapp2.0\restraunter.pdb
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\obj\Debug\netcoreapp2.0\restraunter.csproj.CoreCompileInputs.cache
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\obj\Debug\netcoreapp2.0\restraunter.AssemblyInfoInputs.cache
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\obj\Debug\netcoreapp2.0\restraunter.AssemblyInfo.cs
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\obj\Debug\netcoreapp2.0\restraunter.dll
+C:\Users\Brad\Desktop\DojoAssignments\netCore\Advanced ASPNETCORE\restraunter\obj\Debug\netcoreapp2.0\restraunter.pdb

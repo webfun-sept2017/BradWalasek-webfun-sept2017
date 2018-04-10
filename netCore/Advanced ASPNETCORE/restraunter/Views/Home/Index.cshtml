@@ -1,0 +1,31 @@
+
+@{
+    ViewData["Title"] = "Leave a review!";
+}
+<form action="/verify" method="POST">
+    <p>Restaurant:<input type="text" name="restaurant" value=""></p>
+    <p>Your Name:<input type="text" name="reviewer" value=""></p>
+    <p>Review <textarea name="content" cols="30" rows="10"></textarea> </p>
+    
+        <p><select name="stars"></p>
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+    <p><input type="date" name = "date_of_visit">
+    <p><input type="submit" name="" value="Submit"></p>
+
+</form>
+@{
+    foreach(var item in @ViewBag.errors)
+    {
+        if(@item.Errors.Count > 0)
+        {
+            <p>@item.Errors[0].ErrorMessage</p>
+        }
+    }
+}
+<h2><a href="/reviews">View Reviews</a></h2>
+

@@ -1,0 +1,37 @@
+﻿@model List<Schedule>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Dashboard</h1>
+<table>
+    <tr>
+        <th>Wedding</th>      
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+
+@{
+    
+    foreach(var item in @Model)
+    {
+            
+            string d = @item.wedding.date.ToString("d");
+            int count = 0;
+            
+            <form action="/Schedule/Update" method="Post">
+            <tr>
+                <td><a href="/Wedding/@item.wedding.id">@item.wedding.name</a></td>
+                <td>@d</td>
+                <td><input type="submit" value="@item.status"></td>
+                <input type="hidden" name="id" value="@item.id">
+                <input type="hidden" name="status" value="@item.status">
+            </tr>
+            </form>
+        
+        
+    }
+    
+}
+
+</table>
+<a href="/Wedding/New">New Wedding</a>

@@ -1,0 +1,27 @@
+@model Wedding
+@{
+    ViewData["Title"]="Wedding Info";
+}
+@{
+    string d = @Model.date.ToString("d");
+}
+<h1>@Model.name</h1>
+<h3>@Model.address</h3>
+<h3>@d</h3>
+<h2>Attending</h2>
+<hr style="height :2px;background-color :black;">
+
+    
+@{
+    foreach(var schedule in @Model.schedules)
+    {
+        if(schedule.status == "Attending")
+        {
+        <h3>@schedule.user.firstname @schedule.user.lastname</h3>
+        
+        }
+    }
+}
+    
+
+<a href="/Dashboard">Back</a>

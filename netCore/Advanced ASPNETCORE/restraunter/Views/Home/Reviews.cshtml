@@ -1,0 +1,18 @@
+@model List<Review>;
+@{
+    ViewData["Title"]="Reviews";
+}
+<h1>Reviews</h1>
+@{
+    foreach(var review in @Model)
+    {
+        <div>
+            @{
+                string date = @review.date_of_visit.ToString("d");
+                <p><h3>@review.restaurant - Stars:@review.stars</h3></p>
+                <p>@review.reviewer said "@review.content" on @date</p>
+            }  
+        </div>
+    }
+}
+<h2><a href="/">Leave a review</a></h2>

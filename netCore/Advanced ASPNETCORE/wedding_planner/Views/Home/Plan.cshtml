@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"]="New Wedding";
+}
+<h1>Plan your wedding!</h1>
+<form action="/Wedding/Create" method="POST">
+    <table>
+        <tr>
+            <td><label for="wedderone">Wedder one:</label></td>
+            <td><input type="text" id="wedderone" name="wedderone"></td>
+        </tr>
+        <tr>
+            <td><label for="weddertwo">Wedder two:</label></td>
+            <td><input type="text" id="weddertwo" name="weddertwo"></td>
+        </tr>
+        <tr>
+            <td><label for="date">Date:</label></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="address">Address:</label></td>
+            <td><input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add"></td>
+        </tr>
+    </table>
+</form>
